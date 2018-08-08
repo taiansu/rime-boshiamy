@@ -37,6 +37,7 @@ engine:
     - navigator
     - express_editor
   segmentors:
+    - ascii_segmentor
     - matcher
     - abc_segmentor
     - punct_segmentor
@@ -90,19 +91,9 @@ reverse_lookup:
 
 key_binder:
   bindings:
-    - when: always
-      accept: Shift+space
-      toggle: full_shape
-    - when: always
-      accept: Control+Shift+4
-      toggle: simplification
-    # TODO: <> 換頁。
-    # - when: has_menu
-    #   accept: Shift+comma
-    #   send: Page_Up
-    # - when: has_menu
-    #   accept: Shift+period
-    #   send: Page_Down
+    import_preset: default
+menu:
+  alternative_select_keys: 0123456789
 
 recognizer:
   import_preset: default
