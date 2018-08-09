@@ -68,7 +68,6 @@ translator:
 
 reverse_lookup:
   dictionary: luna_pinyin
-  # dictionary: terra_pinyin
   # dictionary: bopomofo
   # prism: bopomofo # 打開這個的時候要在 dependencies 加入 bopomofo
 

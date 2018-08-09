@@ -1,7 +1,6 @@
 # 嘸蝦米輸入法（日文模式）
-# 
-# FIXME: 注音反查
 # FIXME: 空碼字的時候按空白不可以輸出文字
+
 schema:
   schema_id: boshiamy_j
   name: 嘸蝦米（日文）
